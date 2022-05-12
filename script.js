@@ -4,16 +4,16 @@ const ProductList=document.createElement("ul");
 const ProductItem1=document.createElement("li");
 const ProductItem2=document.createElement("li");
 const ProductItem3=document.createElement("li");
-const classList=document.createElement("classList");
+const ProductDetails=document.createElement("section");
 const ButtonEnd=document.createElement("button");
 const p=document.createElement("p");
 
 
 ButtonEnd.innerText="Finalizar";
 
-classList.append(p,ButtonEnd);
+ProductDetails.append(p,ButtonEnd);
 ProductList.append(ProductItem1,ProductItem2,ProductItem3);
-main.append(ProductList,classList);
+main.append(ProductList,ProductDetails);
 body.appendChild(main);
 console.log(body);
 
